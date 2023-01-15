@@ -64,10 +64,13 @@ I've learned again about css flex-box and it's properties,which was the most dif
 
 ## Author
 
-- Website - [Salman Mario](https://salmanmario.github.io/Interactive-Landing-Page/)
+- Website - [Salman Mario](https://salmanmario.github.io/Product-Preview-Card/)
 - Frontend Mentor - [@SalmanMario](https://www.frontendmentor.io/profile/SalmanMario)
 
 # Interactive-Landing-Page
+
 # Product-Preview-Card
+
 # Product-Preview-Card
+
 # Product-Preview-Card
