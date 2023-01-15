@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(37, 33%, 80%);
+}
+
+.container {
+  max-width: 620px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+}
+
+.perfume-img img {
+  max-width: 100%;
+  display: inherit;
+}
+
+.perfume-img {
+  max-height: 460px;
+}
+
+.content {
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.content p {
+  color: hsl(20, 2%, 31%);
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+
+.content h1 {
+  margin: 0 3rem 1rem 0;
+  font-family: "Fraunces", sans-serif;
+}
+
+.content .perfume {
+  padding: 1rem 0 1rem 0;
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+}
+
+.container p {
+  line-height: 1.5rem;
+}
+
+.btn button {
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border-radius: 0.5rem;
+  width: 250px;
+  margin: 1rem 0 0 0;
+  height: 50px;
+}
+
+.prices {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.btn .icon {
+  background-color: hsl(158, 36%, 37%);
+}
+
+.prices .original-price {
+  padding: 2.1rem 0 0 0;
+  margin-left: 2rem;
+  text-decoration-line: line-through;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(20, 2%, 31%);
+}
+
+.prices .price {
+  padding: 1.5rem 0 0 0;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", sans-serif;
+}
+
+button {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.btn span {
+  background-color: hsl(158, 36%, 37%);
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 620px) {
+  .container {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  .img {
+    max-height: 270px;
+    object-fit: cover;
+  }
+}
